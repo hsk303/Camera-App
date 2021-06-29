@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+         display: flex;
+         flex-wrap: wrap !important;
+        padding: 16px;
+        justify-content: space-evenly;
+        background-color: #3498db;
+    }
+    .media-container{
+      height: 15rem;
+      width: 15rem;
+      border: 1px solid;
+    }
+    .media{
+      height: 80%;
+      width: 100%;
+      border: 1px solid;
+    }
+    button{
+        width: 100%;
+        height: 10%;
+        /* border: 1px solid; */
+    }
+    img,video{
+        height: 100%;
+        width: 100%;
+    }
+    body .media-container{
+        margin: 3rem;
+    }
+
+</style>
+</head>
+
+<body>
+    <!-- <div class="media-container">
+        <div class="media">
+            <video src="" autoplay loop controls muted></>
+        </div>
+        <button class="download"></button>
+        <button class="delete"></button>
+    </div> -->
+    <script src="dbScript.js"></script>
+    <script>
+        setTimeout(function(){
+           viewMedia();
+        },100);
+    </script>
+</body>
+</html>
